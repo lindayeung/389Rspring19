@@ -1,11 +1,11 @@
 # Writeup 1 - Ethics
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION NUMBER HERE*
+Name: Linda Yeung
+Section: 0201
 
-I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examniation.
+I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examination.
 
-Digital acknowledgement: *PUT YOUR NAME HERE*
+Digital acknowledgement: Linda Yeung
 
 ## Assignment Writeup
 
@@ -15,4 +15,9 @@ This was done via the [ELMS assignment](). (we'll post an announcement when this
 
 ### Part 2 (75 pts)
 
-*Replace this text with your repsonse to our prompt and your ethical argument!*
+	For the sake of the security of both the lives of customers, and the potential legal future implications to my company, I should notify my boss immediately as well as push for further action if none is initially taken. Reporting to my boss is the first step, because this person is likely the most immediate person of higher authority who will hear my concerns first-hand and will be able to act upon it. If my boss is unavailable or not taking my concerns seriously, I would put together a thorough report in an effort to validate credibility, before bringing it to the attention of my boss' boss, or another person of higher authority. At the same time, I would present my case to any possible security/safety staff, who will likely support it and provide a larger voice. I would try to get the attention of all management in the facility before considering resorting to disclosing directly to the public, in which case further examination into the severity of the security problem and potential solutions would be extensively researched first. If the company is not willing to even bat an eye at the issue and is aggressively pushing out the release and it is clear that they knew the implications very well, I would consult a confidential, potentially HR as well, who is knowledgeable about law to determine my legal boundaries. In addition, I would take note of the situation, documenting and saving emails of any conversation with the management, to serve as evidence in the future. As a developer, security in developing software is part of my job, and failing to report known bugs especially fatal ones that I have knowledge about will certainly fall on me legally and morally. If I were actively still pushing for fixes in the best approach I believed, at the time of any fatal accidents, then I could argue that the blame is not on me but instead on management for not taking the necessary actions. 
+    As a car manufacturing company, it is the company's obligation to 
+provide the level of safety and security that it depicts to the customers. Especially to the degree that accidents can occur with automotive failure, it is essential to take even the slightest risk seriously. Lives are dependent on our products, and losing even one life is failure on our part. As a member of the company and with better insight than the public on security issues, it is therefore my responsibility to inform the company and get it to take action. 
+Opponents may argue that the risk is too small to outweigh the benefits of pushing out the feature which can improve the lives of hundreds. They may also argue that the setback may be financially draining and resource intensive. They may also Additionally, they might claim that the flaw may be a false positive, that we need more time to look into it to make sure that it is indeed putting lives at risk. 
+	These arguments are unjustified because once again, even the slightest risk can jeopardize someone's life. Even if it is just at the expense of one life, this person may have family and friends that will certainly be affected, so the consequences would be insurmountable. Regarding the financial implications, if lives were to be lost, the cost of lawsuits and the drop of company's stock would be many times worse, and possibly irreversible. Additionally, the company should prioritize the safety of its product over its financial sector--it is morally the right thing to do. Being transparent with the media regarding taking the steps necessary to secure products will shine the company in better light as well. Lastly, even if the flaw were to be smaller than it was made out to be, it is nonetheless the responsibility of the company to take all possible issues seriously, and expend the resources necessary to delve into the issue. Many times the problem may be a minor one, but the one percent of the time that it is, will be at an irreversible cost. 
+	Ultimately, it is my job to initiate action either to postpone, or to at the very least gather a team to look into the problem. If all of management fails to listen, it may be necessary to gather my own team within the company, talk to those who may support me, and formulate a thorough plan to demonstrate to the company that the issue is serious and that steps need to be taken. 
