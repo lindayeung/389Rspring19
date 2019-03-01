@@ -1,18 +1,20 @@
 # Writeup 3 - Operational Security and Social Engineering
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION NUMBER HERE*
+Name: Linda Yeung
+Section: 0201
 
-I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examniation.
+I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examination.
 
-Digital acknowledgement: *PUT YOUR NAME HERE*
+Digital acknowledgement: Linda Yeung
 
 ## Assignment Writeup
 
 ### Part 1 (40 pts)
 
-*Replace this text with your repsonse to our prompt for part 1!*
+First I will call Elizabeth at 1.323331 that we found on WHOIS. I would identify myself as an admin from her company at 1337 bank. I would say that the company has recently discovered some private security vulnerabilities and will be migrating to a new, more secure domain. The old site, 1337bank.money, will no longer be active, and thus she will need to create an account with *my* made up new domain, 1337bank.secure.money. She will need to take the following steps to ensure that her data is secured. To make this urgent, I would tell her that the old site will no longer be active and that if she chooses to wait, her account may be terminated in which she will need to come into the company (give her the address to make it more credible) to verify her identity in person. As pretext I would have background noises going on, primarily with a phone call ring every once in 10 minutes to make it seem like I am situated in an office. Once she agrees to set up her account, I will send her an email as another form of getting her to trust me, and via this email I will ask her to first confirm her old account, supplying her both the username and password. Once she has confirmed it, I will ask her to confirm HERSELF by entering her PIN number. Then I will redirect her to a page which asks her to set up three security questions which will allow for a two step authorization. Within each question, I will ask for her mother's maiden name, the city she was born in, and the name of her first pet. If ever in this process she were to question this process, I will tell her that the company is making an effort to maintain privacy and is not able disclose further information at this time, but that we are working on employee confidentiality.
 
 ### Part 2 (60 pts)
 
-*Replace this text with your repsonse to our prompt for part 1!*
+The first vulnerability that I would recommend for Elizabeth to fix is to ensure that she does not provide her actual personal information when signing up for her domain. She will be the target victim of phishing attempts and could be easily tracked down if she does so, as well as vulnerable to social engineering elicitation (i.e from part 1). ICANN states that she does need to provide valid company information to prevent third party disputes, to which I would recommend that she sets up a company email rather than use one with her personal usertag. She should then use a company address and phone number, so that suspicious attempts to phish can be distinguished.
+I would then move on to advise Elizabeth to strengthen her password, as that would have prevented our capability to hack into her open port. Some of the recommendations I would give her would be to make her password at least 12 characters, to include numbers, symbols, capital, letters and/or uppercase letters in some combination, and to not rely on dictionary words or substitution of it for that matter. She should create one strong unique password, and secure that password with a password manager in case she forgets. She can use password managers such as Zoho Vault, Keeper Password Manager & Digital Vault, or if she is on a budget, services like KeePass are free to use. Having a strong password not only ensures that we cannot use long wordlists to brute force her password, but also it makes it more difficult to use software programs to crack her password.
+Lastly, I would advise this lady to CLOSE ports that she is not using! If she is not going to bother with a secure password she needs to at least make sure people cannot just log into her system remotely. She can do so by setting up a firewall, in particular a traditional state inspection firewall or even a UTM firewall (which comes with some antivirus features)  which monitors connection and can block incoming traffic on her port 1337 that we were able to exploit. If she intends on keeping the ports open, she ought to use an IDS (Intrusion Detection System) or IPS (Intrusion Prevention System) which can help her monitor traffic and detect suspicious data. In this case, if we are sending a request (our wordlist) every second, it would be detected and alerted, and she would be able to blacklist us or close off the port. Additionally, the intrusion alert system could have taken note of our nmap and blacklisted us even before we could begin to find her open port. 
