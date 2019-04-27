@@ -1,4 +1,4 @@
-# Crypto I Writeup
+# Crypto II Writeup
 
 Name: *PUT YOUR NAME HERE*
 Section: *PUT YOUR SECTION NUMBER HERE*
